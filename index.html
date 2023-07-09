@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oto Click</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/Apps1.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">OtoClick - Auto Clicker</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#price" class="navbar-link" data-nav-link>Price</a>
+          </li>
+
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+      <section class="section home" id="home" aria-label="home">
+        <div class="container">
+
+          <figure class="home-banner img-holder has-before" style="--width: 270; --height: 480;">
+            <video width="270" height="480" autoplay loop muted>
+              <source src="./assets/images/OtoClick-video.mp4" type="video/mp4" class="video" />
+              Your browser does not support the video tag.
+            </video>
+          </figure>
+
+          <div class="home-content">
+
+            <p class="section-subtitle">by Maroon Labs</p>
+
+            <h1 class="h1 home-title">Automate everything on your android</h1>
+
+            <ul class="home-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Checkout 100s of automation <br> in the Otoclick community <br> to automate  workflows, <br>solve game levels and many more. </span>
+
+                  
+                </a>
+              </li>
+
+              <br>
+              <li class="pricing-card" id="download-card">
+                <a href="https://play.google.com/store/apps/details?id=com.maroonlabs.automation&hl=en&gl=US"
+                  class="list-link">
+                  <span class="span">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>
+                </a>
+              </li>
+
+            </ul>
+
+            
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong">10+</strong>
+
+                <span class="span">
+                  Community<br>
+                  Automations
+                </span>
+              </li>
+
+              <li class="list-item">
+                <strong class="strong">1B+</strong>
+
+                <span class="span">
+                  Ways to<br>
+                  Customize
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#blog" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #features
+      -->
+
+      <section class="section features has-before" id="features" aria-label="features"
+        style="background-image: url('./assets/images/features-bg.png')">
+        <div class="container">
+
+          <div class="features-content">
+
+            <p class="section-subtitle">Features</p>
+
+            <h2 class="h2 section-title">OtoClick</h2>
+
+            <p class="section-text">
+              Discover the ultimate solution to simplify your mobile interactions. With our innovative app, you can
+              automate repetitive taps and swipes, reducing manual effort and saving valuable time. But that's not
+              all—this app goes beyond basic automation by offering community-based automation and timed execution.
+            </p>
+
+            <ul class="features-list">
+
+              <li class="features-item">
+                <div class="wrapper features-card">
+                  <ion-icon name="star"></ion-icon>
+                  <h3 class="card-title">Automate taps, swipes, and more with ease</h3>
+
+                </div>
+
+
+              </li>
+
+              <li class="features-item">
+                <div class="wrapper features-card">
+                  <ion-icon name="recording"></ion-icon>
+                  <h3 class="card-title">Advanced editing capabilities for enhanced automation</h3>
+                </div>
+
+              </li>
+
+              <li class="features-item">
+                <div class="wrapper features-card">
+                  <ion-icon name="alarm"></ion-icon>
+                  <h3 class="card-title">Timed execution feature for scheduling automations.</h3>
+                </div>
+
+              </li>
+
+              <li class="features-item">
+                <div class="wrapper features-card">
+                  <ion-icon name="home"></ion-icon>
+                  <h3 class="card-title">Otoclick community where you can find 100s of created automations that you can start using today.</h3>
+                </div>
+
+              </li>
+
+              <li class="features-item">
+                <div class="wrapper features-card">
+                  <ion-icon name="lock-closed"></ion-icon>
+                  <h3 class="card-title">No root access required for seamless functionality.</h3>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="features-banner" style="--width: 270; --height: 480;">
+            <video width="270" height="480" autoplay loop muted>
+              <source src="./assets/images/app-screenrecord.mp4" type="video/mp4" class="video" />
+              Your browser does not support the video tag.
+            </video>
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #blog
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Blog</p>
+
+          <h2 class="h2 section-title">Selected Works</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-1.jpg" width="600" height="675" loading="lazy" alt="Magic Art"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">How to use Timed Execution</h3>
+
+                  <p class="card-text">Introduction</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-2.jpg" width="600" height="675" loading="lazy" alt="Bona Green"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">How to use Community Automations</h3>
+
+                  <p class="card-text">Introduction</p>
+
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-3.jpg" width="600" height="675" loading="lazy" alt="Leo Dandora"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">How to use infinte clicks/swipes</h3>
+
+                  <p class="card-text">Introduction</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-4.jpg" width="600" height="675" loading="lazy" alt="Folio Grasia"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Best apps to create automations</h3>
+
+                  <p class="card-text">Productivity</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-5.jpg" width="600" height="675" loading="lazy" alt="Viva Mercury"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Why we are better than others?</h3>
+
+                  <p class="card-text">Market</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/blog-6.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Creating best automations Tips/Tricks</h3>
+
+                  <p class="card-text">Productivity</p>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Pricing</p>
+
+            <h2 class="h2 section-title">Premium Plan</h2>
+
+            <p class="section-text">
+              We have been working hard to bring this product to life and getting the premium enables us to perfect the
+              product.
+            </p>
+
+          </div>
+
+          <ul class="pricing-list">
+
+            <!-- <li>
+              <div class="pricing-card">
+                <ion-icon name="download"></ion-icon>
+
+                <h3 class="card-title">Download Community Automations</h3>
+
+
+              </div>
+            </li> -->
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="notifications-off"></ion-icon>
+
+                <h3 class="card-title">No Advertisements</h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="folder"></ion-icon>
+
+                <h3 class="card-title">Unlimited Automations</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+    - #FOOTER
+  -->
+
+      <footer class="footer">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; 2023. All rights reserved by <a href="#" class="copyright-link">MaroonLabs.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-reddit"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </footer>
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./script.js" defer></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
