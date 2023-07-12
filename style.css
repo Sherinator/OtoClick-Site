@@ -11,7 +11,7 @@
 
   --sonic-silver: hsl(0, 0%, 46%);
   --spanish-gray: hsl(0, 0%, 60%);
-  --theme-color: hsl(350, 46%, 40%);
+  --theme-color: hsl(213, 69%, 40%);
   --light-gray: hsl(0, 0%, 80%);
   --gray-x-11: hsl(0, 0%, 73%);
   --dim-gray: hsl(0, 0%, 44%);
@@ -855,7 +855,6 @@ body::-webkit-scrollbar-thumb {
     width: 270px;
     margin-inline: auto 80px;
     margin-block-end: 0;
-    overflow: visible;
   }
 
   .home-banner .img-cover { border-radius: inherit; }
